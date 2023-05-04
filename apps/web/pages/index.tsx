@@ -1,10 +1,10 @@
-import { Button } from "ui";
-
+//import { Button } from "ui";
+import { Button } from "common-ui";
 export default function Web() {
   return (
     <div>
       <h1>Web</h1>
-      <Button />
+      <Button primary={true} label="test" size="large" backgroundColor='blue' />
     </div>
   );
 }
