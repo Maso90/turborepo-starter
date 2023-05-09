@@ -1,4 +1,4 @@
-/** @type { import('@storybook/nextjs').StorybookConfig } */
+/** @type { import('@storybook/react-webpack5').StorybookConfig } */
 const config = {
   stories: ["../stories/**/*.mdx", "../stories/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
@@ -7,7 +7,7 @@ const config = {
     "@storybook/addon-interactions",
   ],
   framework: {
-    name: "@storybook/nextjs",
+    name: "@storybook/react-webpack5",
     options: {},
   },
   docs: {
