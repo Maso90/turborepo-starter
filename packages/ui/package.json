@@ -31,6 +31,7 @@
     "@storybook/testing-library": "^0.0.14-next.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tsconfig": "*"
+    "tsconfig": "*",
+    "eslint-config-custom": "workspace:*"
   }
 }

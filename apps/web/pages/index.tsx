@@ -1,10 +1,10 @@
-//import { Button } from "ui";
-import { Button } from "ui";
+import { DangerButton } from "ui";
+
 export default function Web() {
   return (
     <div>
       <h1>Web</h1>
-      <Button primary={true} label="test" size="large" backgroundColor='green' />
+      <DangerButton label="Danger"/>
     </div>
   );
 }
